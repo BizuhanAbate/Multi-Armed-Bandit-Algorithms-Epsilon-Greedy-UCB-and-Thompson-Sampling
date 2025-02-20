@@ -53,7 +53,8 @@ Each algorithm was run for 1000 steps, and their performance was recorded in ter
 
 The plot below shows the cumulative rewards for different epsilon values.
 
-![Epsolon](https://github.com/user-attachments/assets/be6e54a2-e86b-4665-a143-35be088a598b)
+![Epsolon](https://github.com/user-attachments/assets/93387e8f-90af-4254-90c6-7c1a4aadfb77)
+
 
 - Lower **ε** (0.01) results in faster convergence but less exploration.
 - Higher **ε** (0.5) explores more but converges slower.
@@ -62,7 +63,8 @@ The plot below shows the cumulative rewards for different epsilon values.
 
 The plot below shows the cumulative rewards for different values of **c**.
 
-![UCB](https://github.com/user-attachments/assets/f48cd42e-3aa9-4808-afbc-be1fceebeddc)
+![UCB](https://github.com/user-attachments/assets/ad26cf93-dd2f-42f8-98a7-6a9b90945bdf)
+
 
 - Smaller **c** (0.1) leads to under-exploration.
 - Larger **c** (2) improves exploration but may slow exploitation.
@@ -71,7 +73,8 @@ The plot below shows the cumulative rewards for different values of **c**.
 
 The plot below shows the cumulative rewards for Thompson Sampling.
 
-![Thompson](https://github.com/user-attachments/assets/8799a8e8-ff98-4455-9432-0ca2bd74f8a4)
+![Thompson](https://github.com/user-attachments/assets/ffc0be4e-9612-4f74-a0df-0ddc5b9a9b7c)
+
 
 - Converges efficiently by balancing exploration and exploitation dynamically.
 
@@ -79,7 +82,8 @@ The plot below shows the cumulative rewards for Thompson Sampling.
 
 A final comparison of all three algorithms is shown below.
 
-![Together](https://github.com/user-attachments/assets/bd32b2a5-b5d2-4d66-862f-7ffb61168722)
+![Together](https://github.com/user-attachments/assets/0749f03f-613b-4837-b088-9cf477edcdf2)
+
 
 ### **Analysis & Comparison**
 
@@ -106,24 +110,13 @@ A final comparison of all three algorithms is shown below.
    ```
 3. Run the experiment:
    ```bash
-   python bandit_experiment.py
+   python Multi-Armed Bandit Algorithms: Epsilon-Greedy, UCB, and Thompson Sampling.py
    ```
 4. View results in the `images/` directory.
 
 ## Conclusion
 
-This project demonstrates how different multi-armed bandit algorithms balance **exploration vs. exploitation**. Thompson Sampling consistently achieves the **best performance** due to its adaptive exploration strategy.
+This project demonstrates how different multi-armed bandit algorithms balance **exploration vs. exploitation**. 
+Thompson Sampling consistently achieves the **best performance** due to its adaptive exploration strategy.
 
-## References
-
-- Sutton & Barto, "Reinforcement Learning: An Introduction"
-- Auer et al., "Finite-Time Analysis of the Multiarmed Bandit Problem"
-
----
-
-### Contributors
-
-- **Your Name**
-
-Feel free to contribute or raise issues!
 
