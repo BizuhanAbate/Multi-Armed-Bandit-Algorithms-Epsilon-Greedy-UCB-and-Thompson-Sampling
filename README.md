@@ -101,8 +101,8 @@ A final comparison of all three algorithms is shown below.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/bandit-algorithms.git
-   cd bandit-algorithms
+   git clone https://github.com/BizuhanAbate/Multi-Armed-Bandit-Algorithms-Epsilon-Greedy-UCB-and-Thompson-Sampling.git
+   cd Multi-Armed-Bandit-Algorithms-Epsilon-Greedy-UCB-and-Thompson-Sampling
    ```
 2. Install dependencies:
    ```bash
@@ -110,7 +110,7 @@ A final comparison of all three algorithms is shown below.
    ```
 3. Run the experiment:
    ```bash
-   python Multi-Armed Bandit Algorithms: Epsilon-Greedy, UCB, and Thompson Sampling.py
+   python Multi_Armed_Bandit_Algorithms_Epsilon_Greedy,_UCB,_and_Thompson_Sampling.py
    ```
 4. View results in the `images/` directory.
 
